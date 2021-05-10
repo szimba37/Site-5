@@ -1,0 +1,114 @@
+body{
+    display: flex;
+      justify-content: center;
+        background-image: url("https://64.media.tumblr.com/0cb5aba7e0f6b64030122d4df339ea17/tumblr_inline_p7ggwxolvI1rbx4br_400.png");
+      background-repeat: repeat-x repeat-y;
+}
+
+p{
+  text-align: center;
+}
+
+#leg-1 {
+  position: absolute;
+  width: 15px;
+  height: 50px;
+  background: #00C165;
+  margin-top: 260px;
+  margin-bottom: 15px;
+  margin-left: -60px;
+}
+
+#foot-1 {
+  position: absolute;
+  width: 35px;
+  height: 10px;
+  background: #00C165;
+  margin-top: 300px;
+  margin-bottom: 15px;
+  margin-left: -90px;
+}
+
+#foot-2 {
+  position: absolute;
+  width: 35px;
+  height: 10px;
+  background: #00C165;
+  margin-top: 300px;
+  margin-bottom: 15px;
+  margin-left: 90px;
+}
+
+#leg-2 {
+  position: absolute;
+  width: 15px;
+  height: 50px;
+  background: #00C165;
+  margin-top: 260px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+}
+
+#horn-1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 30px solid #00C165;
+  border-bottom: 15px solid transparent;
+  margin-left: -20px;
+  margin-top: -110px;
+}
+
+#horn-2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 30px solid #00C165;
+  border-bottom: 15px solid transparent;
+  margin-left: 90px;
+  margin-top: -110px;
+}
+
+#mike {
+  width: 150px;
+  height: 150px;
+  background: #00C165;
+  padding: 15px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  border-radius: 150px;
+}
+
+#eye {
+  width: 100px;
+  height: 100px;
+  background: #FFF;
+  padding: 15px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border-radius: 100px;
+}
+
+#pupil {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  padding: 15px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border-radius: 30px;
+  animation-name: look-about;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+  @keyframes look-about{
+    0%   {background-color:red; left: 20px;}
+    25%  {background-color:yellow; top: 20px;}
+    50%  {background-color:blue; right: 40px;}
+    75%  {background-color:green; bottom: 30px;}
+    100% {background-color:red; left: 20px;}
+  }
